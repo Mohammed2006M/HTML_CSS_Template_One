@@ -377,6 +377,41 @@ body {
     margin-top: 0;
 }
 /* End About */
+/* Start Quran */
+.Quran {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--section-background);
+}
+.Quran .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 80px;
+}
+.Quran .portfolio-content .card {
+    background-color: white;
+    border: 2px solid var(--main-color);
+}
+.Quran .portfolio-content .card img {
+    max-width: 100%;
+}
+.Quran .portfolio-content .card .info {
+    padding: 20px;
+}
+.Quran .portfolio-content .card h3 {
+    margin: 0px;
+}
+.Quran .portfolio-content .card p {
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+/* End Quran */
+hr {
+    border-color: var(--main-color);
+    width: 50%;
+}
 /* Start Contact */
 .contact {
     padding-top: var(--section-padding);
